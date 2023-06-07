@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Navigate to the Downloads directory
+cd ~/Downloads
+
+# Find all directories named "node_modules" and delete them
+find . -type d -name "node_modules" -exec rm -r {} \;
